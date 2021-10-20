@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'UniversLT-old';
+    src: url('../fonts/UniversLT-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversLT';
+    src: url('../fonts/UniversLT-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UniversLT';
+    src: url('../fonts/UniversLT-LightOblique.ttf') format('ttf'),
+         url('../fonts/UniversLT-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: oblique;
+}
+@font-face {
+    font-family: 'UniversLT';
+    src: url('../fonts/UniversLT-Bold.ttf') format('ttf');
+        //  url('../fonts/UniversLT-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UniversLT';
+    src: url('../fonts/UniversLT-BoldOblique.ttf') format('ttf');
+        //  url('../fonts/UniversLT-BoldOblique.woff') format('woff');
+    font-weight: 700;
+    font-style: oblique;
+}
+  
+@font-face {
+    font-family: 'GaramondPremrPro-Smbd';
+    src: url('../fonts/Garamond-Premier-Pro-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}

@@ -1,0 +1,10 @@
+.theme-slider::before {
+  @apply content-[""] absolute bg-gray-light bottom-[5px] h-[18px] left-[6px] w-[18px] rounded-full transition-all duration-300;
+}
+
+.theme-slider.dark {
+  background: rgba(105, 220, 111, 0.8);
+}
+.theme-slider.dark::before {
+  transform: translateX(33px);
+}

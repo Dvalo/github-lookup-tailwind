@@ -1,0 +1,8 @@
+.card-layout-control {
+  @apply cursor-pointer text-body-light text-xs p-2.5 transition-colors duration-300 ease-in-out hover:bg-white hover:bg-opacity-10;
+}
+
+.list-view .clc-list,
+.grid-view .clc-grid {
+  @apply bg-white bg-opacity-10;
+}

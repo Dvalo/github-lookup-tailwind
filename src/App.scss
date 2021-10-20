@@ -1,0 +1,34 @@
+@import './styles/styles.scss';
+@import './styles/fonts';
+
+.App {
+  padding: 20px;
+  font-family: 'UniversLT', sans-serif;
+  background: #fff;
+  color: #000;
+
+  // font-family: 'GaramondPremrPro-Smbd', serif;
+  // font-size: 56px;
+  // text-transform: uppercase;
+
+  .old {
+    font-family: 'UniversLT-old', sans-serif;
+  }
+}
+
+.container {
+  width: 70%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: $breakpoint-laptop) {
+  .container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: $breakpoint-tablet-landscape) {
+  .container {
+    width: 90%;
+  }
+}
